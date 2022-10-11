@@ -11,6 +11,7 @@ A Sticker that represents the best of /slantis. It needed to merge:
 ## The code
 
 We started our code based on http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
+
 We altered:
 - pendulum color to match /slantis colors
 - points represent /slantis team slack growth
