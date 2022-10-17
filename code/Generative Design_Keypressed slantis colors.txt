@@ -1,53 +1,37 @@
-/** ORIGINAL CODE TEXT 
-*  P_2_2_6_03
-* 
-*  Generative Gestaltung – Creative Coding im Web
-*  ISBN: 978-3-87439-902-9, First Edition, Hermann Schmidt, Mainz, 2018
-*  Benedikt Groß, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni
-*  with contributions by Joey Lee and Niels Poldervaart
-*  Copyright 2018
-* 
-*  http://www.generative-gestaltung.de
-* 
-*  Licensed under the Apache License, Version 2.0 (the "License");
-*  you may not use this file except in compliance with the License.
-*  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
-*  Unless required by applicable law or agreed to in writing, software
-*  distributed under the License is distributed on an "AS IS" BASIS,
-*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-*  See the License for the specific language governing permissions and
-*  limitations under the License.
-
- * Drawing tool that moves a pendulum contraption along paths drawn by the mouse.
- * The last joint of the pendulum leaves behind its own trail.
- *
- * MOUSE
- * mouse               : click and drag to create a path to draw a pendulum along with
- *
- * KEYS
- * 1                   : toggle path line
- * 2                   : toggle pendulum
- * 3                   : toggle pendulum path
- * 4                   : toggle clear screen
- * -                   : decrease gravity
- * +                   : increase gravity
- * arrow down          : decrease length of lines
- * arrow up            : increase length of lines
- * arrow left          : decrease joints
- * arrow right         : increase joints
- * del, backspace      : clear screen
- * s                   : save png
- *
- * CONTRIBUTED BY
- * [Niels Poldervaart](http://NielsPoldervaart.nl)
- */
+/** LICENSE
+* P_2_2_6_03
+* Generative Gestaltung – Creative Coding im Web
+* ISBN: 978-3-87439-902-9, First Edition, Hermann Schmidt, Mainz, 2018
+* Benedikt Groß, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni
+* with contributions by Joey Lee and Niels Poldervaart
+* Copyright 2018
+*
+* http://www.generative-gestaltung.de
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
  
-//slantis updated code description
+
+/** SLANTIS NOTES
+* The following code is a modified version of P_2_2_6_03 found at 
+* http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
+*/
+
+ 
+//slantis code description
 
 /**
  * Drawing tool that moves a pendulum contraption along paths drawn by a set of points.
  *
- 
  * KEYS
  * 1                   : toggle pendulum color to /slantis orange
  * 2                   : toggle pendulum color to /slantis yellow
