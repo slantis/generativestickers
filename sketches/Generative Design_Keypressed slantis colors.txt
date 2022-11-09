@@ -1,30 +1,31 @@
 /** LICENSE
-* P_2_2_6_03
-* Generative Gestaltung – Creative Coding im Web
-* ISBN: 978-3-87439-902-9, First Edition, Hermann Schmidt, Mainz, 2018
-* Benedikt Groß, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni
-* with contributions by Joey Lee and Niels Poldervaart
-* Copyright 2018
-*
-* http://www.generative-gestaltung.de
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
- 
+  * P_2_2_6_03
+  * Generative Gestaltung – Creative Coding im Web
+  * ISBN: 978-3-87439-902-9, First Edition, Hermann Schmidt, Mainz, 2018
+  * Benedikt Groß, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni
+  * with contributions by Joey Lee and Niels Poldervaart
+  * Copyright 2018
+  *
+  * http://www.generative-gestaltung.de
+  *
+  * Licensed under the Apache License, Version 2.0 (the "License");
+  * you may not use this file except in compliance with the License.
+  * You may obtain a copy of the License at
+  *
+  * http://www.apache.org/licenses/LICENSE-2.0
+  *
+  * Unless required by applicable law or agreed to in writing, software
+  * distributed under the License is distributed on an "AS IS" BASIS,
+  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
 
-/** SLANTIS NOTES
-* The following code is a modified version of P_2_2_6_03 found at 
-* http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
-*/
+
+  /** SLANTIS NOTES
+  * The following code is a modified version of P_2_2_6_03 found at 
+  * http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
+  * Also used https://github.com/zenozeng/p5.js-svg to export as SVG format
+  */
 
 //slantis code description
 
@@ -53,6 +54,7 @@ var showPendulum = true;
 var clearScreen = false;
 
 //slantis variables
+var randomjoints = [];
 var joints = randomjoints;
 var newShape;
 var randomslantiscolor = [];
@@ -60,9 +62,12 @@ var curve_drawn = false;
 var xx = [];
 var yy = [];
 var mj = [];
-var randomjoints = [];
-canvaswidth = 2500; // TO MAKE CANVAS FIT IN SCREEN INPUT windowWidth  
-canvasheight = 2500; // TO MAKE CANVAS FIT IN SCREEN INPUT windowHeight
+
+// User Inputs
+var canvaswidth = 2500; // TO MAKE CANVAS FIT IN SCREEN INPUT windowWidth
+var canvasheight = 2500; // TO MAKE CANVAS FIT IN SCREEN INPUT windowHeight
+let url =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6NKRN9c2kJ6ybjbb20VF7qciFFGUutM2apoZuSQ2IvIWBc_2_nyeVQj1gNHpbR-wXT-OXsnJRnKTZ/pub?output=csv";
 
 // canvas setup
 function setup() {
@@ -80,8 +85,6 @@ function setup() {
 
 //import data
 let data;
-let url =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXsPSC8TxNE9OF3hmuDaLY_eEX5Dt8WbIw-vVJJlWJjGiZei4AbC4F7wHBPpEkXPUWP_YEuI_um8Ph/pub?gid=2134782002&single=true&output=csv";
 
 function preload() {
   data = loadTable(url, "csv", "header");
@@ -118,7 +121,7 @@ function draw_curve() {
     }
   }
   random_joints_per_members = mj[Math.floor(Math.random() * mj.length)];
-  randomjoints.push(random_joints_per_members);
+  randomjoints.push(int(random_joints_per_members));
   newShape = new Shape(randomslantiscolor);
   for (let j = 0, h = 0; j < xx.length, h < yy.length; j++, h++) {
     newShape.addPos(xx[j], yy[h]);
@@ -142,6 +145,7 @@ function draw() {
     draw_curve();
     curve_drawn = true;
   }
+
 }
 
 function Shape() {
@@ -269,14 +273,35 @@ function Pendulum(size, hierarchy) {
   };
 }
 
-function keyPressed() {
-  if (key == "s" || key == "S") saveCanvas(gd.timestamp(), "png");
+function keyTyped() {
+  if (key === "s" || key === "S") {
+  save ("slantissticker.svg");
+  print ("printed svg");
+  noLoop();}
 
   // slantis default colors from 1 to 4
-  if (key == "1") pendcolor = slantorange;
-  if (key == "2") pendcolor = slantyellow;
-  if (key == "3") pendcolor = slantpurple;
-  if (key == "4") pendcolor = slantblue;
-  if (key == "5") pendcolor = slantpink;
-  if (key == "6") pendcolor = slantgreen;
+  if (key == "1") {
+    pendcolor = slantorange;
+    print("color changed to Orange");
+  }
+  if (key == "2") {
+    pendcolor = slantyellow;
+    print("color changed to Yellow");
+  }
+  if (key == "3") {
+    pendcolor = slantpurple;
+    print("color changed to Purple");
+  }
+  if (key == "4") {
+    pendcolor = slantblue;
+    print("color changed to Cyan");
+  }
+  if (key == "5") {
+    pendcolor = slantpink;
+    print("color changed to Magenta");
+  }
+  if (key == "6") {
+    pendcolor = slantgreen;
+    print("color changed to Green");
+  }
 }
