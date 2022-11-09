@@ -39,7 +39,7 @@
  * 4                   : toggle pendulum color to /slantis blue
  * 5                   : toggle pendulum color to /slantis pink
  * 6                   : toggle pendulum color to /slantis green
- * s                   : save png
+ * s                   : saves svg
  */
 
 var shapes = [];
