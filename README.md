@@ -97,9 +97,9 @@ Find here wallpapers for your desktop and phone
 
 [![linkedin](https://github.com/slantis/generativestickers/blob/main/icons/linkedin.jpg)](https://www.linkedin.com/company/slantis/mycompany/)
 
-[![twitter](https://github.com/slantis/generativestickers/blob/main/icons/twitter.jpg)](https://twitter.com/lifeatslantis)
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Flifeatslantis)
 
-[![instagram](https://github.com/slantis/generativestickers/blob/main/icons/instagram.jpg)](https://twitter.com/lifeatslantis)
+[![instagram](https://img.shields.io/badge/-instagram-eb47b6)](https://twitter.com/lifeatslantis)
 
 # 🗣️ FEADBACK
 We would love to hear from you!
