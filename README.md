@@ -98,7 +98,7 @@ Find [here](https://github.com/slantis/generativestickers/freebies) wallpapers f
 
 [![linkedin](https://img.shields.io/badge/-LinkedIn-blue)](https://www.linkedin.com/company/slantis/mycompany/)
 
-![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Flifeatslantis)
+![Twitter URL](https://img.shields.io/twitter/follow/lifeatslantis)
 
 [![instagram](https://img.shields.io/badge/-Instagram-eb47b6)](https://www.instagram.com/lifeatslantis/?hl=en)
 
