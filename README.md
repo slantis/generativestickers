@@ -76,7 +76,8 @@ Set the pixel value for the variables *canvaswidth* & *canvasheight*
 
 
 # FREE GOODIES
-Find here wallpapers for your desktop and phone
+Find [here](https://github.com/slantis/generativestickers/freebies) wallpapers for your desktop and phone.
+
 # LICENSE
 
 [Apache License 2.0](https://github.com/slantis/generativestickers/blob/main/LICENSE)
@@ -97,9 +98,9 @@ Find here wallpapers for your desktop and phone
 
 [![linkedin](https://img.shields.io/badge/-LinkedIn-blue)](https://www.linkedin.com/company/slantis/mycompany/)
 
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Flifeatslantis)
+![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Flifeatslantis)
 
-[![instagram](https://img.shields.io/badge/-instagram-eb47b6)](https://twitter.com/lifeatslantis)
+[![instagram](https://img.shields.io/badge/-Instagram-eb47b6)](https://www.instagram.com/lifeatslantis/?hl=en)
 
 # 🗣️ FEADBACK
 We would love to hear from you!
