@@ -1,41 +1,41 @@
 # THE STORY BEHIND
-We saw in AU2022 as an oprtunity to explore and create something new. 
-A Sticker that represents the best of /slantis. It needed to merge:
- - tech
- - art
- - collaboration
- - innovation
- - representation of the whole /slatis team 
- - sharing knowledge
+slantis is a unique and diverse world. Brimmed with flowing energy, vibrant connections, and flourishing collaboration. Where the final product is all about collective construction. A place where everyone is as fundamental for it to function.
 
+We are merging the architecture world with the technology world, so we foster a disruptive mindset which seeks to create new things and to stay ahead of the game.
 
+The purpose of this project was mainly to create a product combining our main passions, the team, our values, but most importantly our daily collaboration spirit.
+
+This year, with Autodesk University 2022 coming up and our team attending, the project got a clearer output: a generative design sticker.
+
+An awesome piece of swag integrating technology, art, collaboration, innovation, and teamwork.
+
+So, take a look at the specifics!
 # THE CODE
-------------------> 
 We started our code based on http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
 
-DATA TAKEN FROM slack analytics
+To make everyone on the /slantis team part of this project we made our points match to data from our main platform of communication: Slack.
 
-We altered some variables:
+Using Slack Analytics we extracted from our headquarters channel:
+- Quantity of members reactions and comments per month
+- Quantity of team members per month
+
+We set this data on the variables:
 - Pendulum color to match /slantis colors
-- Pendulum path points represent reprsent /slantis team comments and reactions
-- Quantity of the pendulum joints reflect lines /slantis team slack growth
-
-------------------> insertar aca la tabla de valores
-
-we left color changing as a manual input so we ....
-
-This left as with xxx options ... 
-
+- Pendulum path points represent /slantis team comments and reactions
+- Quantity of the pendulum joints reflect /slantis team growth
 ## HOW TO USE IT
- Drawing tool that moves a pendulum contraption along paths drawn by a set of points.
 
- [Give it a spin](https://editor.p5js.org/slanTina/full/WsTleMSxM
+Thi code sets a drawing tool that moves a pendulum contraption along paths drawn by a set of points.
+
+ 💫[Give it a spin](https://editor.p5js.org/slanTina/full/WsTleMSxM
 )
 
-**User interaction**
+
+### User interactions
+
  Use keyboard keys to change the colors and save results
 
- KEYS
+ **KEYS** 
  
 1                   : toggle pendulum color to /slantis orange
 
@@ -49,6 +49,7 @@ This left as with xxx options ...
 
 6                   : toggle pendulum color to /slantis green
 s                   : save png
+
 
 
 ## CREATE YOUR OWN VERSION
@@ -74,10 +75,31 @@ Set the pixel value for the variables *canvaswidth* & *canvasheight*
 
 
 
-## COMMENTS? 
+# FREE GOODIES
+Find here wallpapers for your desktop and phone
+# LICENSE
+
+[Apache License 2.0](https://github.com/slantis/generativestickers/blob/main/LICENSE)
+
+
+# AUTHORS
+
+- Agustina Aboy [@slanTina](https://www.github.com/slanTina)
+- Angela Gomez  
+- Matilde Bachino
+- Mercedes Carriquiry [@merececarri](https://github.com/merececarri)
+- Nicolas Franco
+
+✨ Special thanks to Carlos Palma for his insight and support [@chonwil](https://github.com/chonwil)
+
+# 🔗 LINKS
+[![web](https://github.com/slantis/generativestickers/blob/main/icons/slantisOrange.jpg)](http://slantis.com/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/slantis/mycompany/)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lifeatslantis)
+
+# 🗣️ FEADBACK
 We would love to hear from you!
-Feature [your request here](https://github.com/slantis/generativestickers/issues) or contact us @ hello@slantis.com
 
-## LICENSE
-------------------> This code is licensed under -------------- 
-
+Feature [your request here.](https://github.com/slantis/generativestickers/issues)
