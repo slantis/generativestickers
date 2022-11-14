@@ -76,10 +76,8 @@ Set the pixel value for the variables *canvaswidth* & *canvasheight*
 4. Copy link to "url" variable
 
 
-
-
-# FREE GOODIES
-Find [here](https://github.com/slantis/generativestickers/freebies) wallpapers for your desktop and phone.
+# FREEBIES
+Find [here](https://github.com/slantis/generativestickers/freebies) wallpapers for your all your devices.
 
 # LICENSE
 
