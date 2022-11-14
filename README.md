@@ -13,6 +13,7 @@ So, take a look at the specifics!
 
 # THE CODE
 We started our code based on http://www.generative-gestaltung.de/2/sketches/?01_P/P_2_2_6_03
+
 Used https://github.com/zenozeng/p5.js-svg to set SVG output.
 
 To make everyone on the /slantis team part of this project we made our points match to data from our main platform of communication: Slack.
