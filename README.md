@@ -77,7 +77,7 @@ Set the pixel value for the variables *canvaswidth* & *canvasheight*
 
 
 # FREEBIES
-Find [here](https://github.com/slantis/generativestickers/freebies) wallpapers for your all your devices.
+Find [here](https://github.com/slantis/generativestickers/tree/main/freebies) wallpapers for your all your devices.
 
 # LICENSE
 
