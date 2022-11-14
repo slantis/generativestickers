@@ -93,11 +93,13 @@ Find here wallpapers for your desktop and phone
 ✨ Special thanks to Carlos Palma for his insight and support [@chonwil](https://github.com/chonwil)
 
 # 🔗 LINKS
-[![web](https://github.com/slantis/generativestickers/blob/main/icons/slantisOrange.jpg)](http://slantis.com/)
+[![web](https://github.com/slantis/generativestickers/blob/main/icons/Avatar_slantis.png)](http://slantis.com/)
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/slantis/mycompany/)
+[![linkedin](https://github.com/slantis/generativestickers/blob/main/icons/linkedin.png)](https://www.linkedin.com/company/slantis/mycompany/)
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lifeatslantis)
+[![twitter](https://github.com/slantis/generativestickers/blob/main/icons/twitter.png)](https://twitter.com/lifeatslantis)
+
+[![instagram](https://github.com/slantis/generativestickers/blob/main/icons/instagram.png)](https://twitter.com/lifeatslantis)
 
 # 🗣️ FEADBACK
 We would love to hear from you!
