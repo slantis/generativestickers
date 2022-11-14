@@ -93,9 +93,7 @@ Find here wallpapers for your desktop and phone
 ✨ Special thanks to Carlos Palma for his insight and support [@chonwil](https://github.com/chonwil)
 
 # 🔗 LINKS
-[![web](https://github.com/slantis/generativestickers/blob/main/icons/Avatar_slantis.png=250x)](http://slantis.com/)
-
-[![linkedin](https://github.com/slantis/generativestickers/blob/main/icons/linkedin.png)](https://www.linkedin.com/company/slantis/mycompany/)
+[![web](https://github.com/slantis/generativestickers/blob/main/icons/Avatar_slantis.png=250x)](http://slantis.com/)  [![linkedin](https://github.com/slantis/generativestickers/blob/main/icons/linkedin.png)](https://www.linkedin.com/company/slantis/mycompany/)
 
 [![twitter](https://github.com/slantis/generativestickers/blob/main/icons/twitter.png)](https://twitter.com/lifeatslantis)
 
