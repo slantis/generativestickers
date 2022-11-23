@@ -103,7 +103,7 @@ Find [here](https://github.com/slantis/generativestickers/tree/main/freebies) wa
 
 [![instagram](https://img.shields.io/badge/-Instagram-eb47b6)](https://www.instagram.com/lifeatslantis/?hl=en)
 
-# 🗣️ FEADBACK
+# 🗣️ FEEDBACK
 We would love to hear from you!
 
 Feature [your request here.](https://github.com/slantis/generativestickers/issues)
