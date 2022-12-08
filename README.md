@@ -9,7 +9,7 @@ This year, with Autodesk University 2022 coming up and our team attending, the p
 
 An awesome piece of swag integrating technology, art, collaboration, innovation, and teamwork.
 
-<img src="https://github.com/slantis/generativestickers/blob/main/stickers%20designs/stickers%20photo.jpg" width="50%" height="50%">
+<img src="https://github.com/slantis/generativestickers/blob/main/stickers%20designs/stickers%20photo.jpg" width="35%" height="35%">
 
 So, take a look at the specifics!
 
